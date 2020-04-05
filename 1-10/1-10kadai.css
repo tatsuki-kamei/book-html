@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+.clearfix{
+	clear: both;
+	content: "";
+	display:block;
+}
+main {
+	margin:50px 0;
+	width:960px;
+}
+.box{
+	width:300px;
+	margin-right:30px;
+	border:1px solid gray;
+	float:left;
+}
+.box:last-child{
+	margin:0;
+}
+
+.step{
+	font-size: 30px;
+	position: absolute;
+	color:white;
+	background-color: orange;
+}
+.contents{
+	width:280px;
+	margin:10px;
+}
+.picture{
+	width:280px;
+}
+
+@media screen and (max-width:768px){
+	main {
+		width:100%;
+	}
+	.box{
+		margin:0 auto 20px auto;
+		float:none;
+
+	}
+	.box:last-child{
+		margin:0 auto;
+	}
+	.contents{
+		width:90%;
+		padding:10px 0;
+	}
+} 
