@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+.clearfix{
+	clear: both;
+	content: "";
+	display:block;
+}
+main {
+	width:960px;
+}
+.box{
+	width:300px;
+	margin-right:30px;
+	border:1px solid gray;
+	float:left;
+}
+.box:last-child{
+	margin:0;
+}
+
+.step{
+	font-size: 30px;
+	position: absolute;
+	color:white;
+	background-color: orange;
+}
+.contents{
+	width:280px;
+	padding:10px;
+}
+.picture{
+	width:280px;
+}
