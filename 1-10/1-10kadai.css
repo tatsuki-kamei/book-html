@@ -41,6 +41,7 @@ main {
 		width:100%;
 	}
 	.box{
+		width:90%;
 		margin:0 auto 20px auto;
 		float:none;
 
@@ -50,6 +51,9 @@ main {
 	}
 	.contents{
 		width:90%;
-		padding:10px 0;
+		margin:10px auto;
+	}
+	.picture{
+		width:100%;
 	}
 } 
